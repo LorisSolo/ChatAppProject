@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.backButton {
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(230, 255, 219);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 100vh;
+    height: 32px;
+    width: 32px;
+    align-self: center;
+}
+
+.backButton:hover {
+    background-color: white;
+}
+
+.mainContainer {
+    color: rgb(51, 51, 51);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(159, 159, 159);
+    border-radius: 25px;
+}
+
+.groupsContainer {
+    overflow-y: scroll;
+}
+
+.mainHeader {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 65px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: rgb(179, 245, 179);
+}
+
+.mainFooter {
+    padding-top: 10px;
+    display: flex;
+    margin-top: auto;
+    height: 65px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(179, 245, 179);
+}
+
+.group {
+    padding-left: 5px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.groupName {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.group:hover {
+    background-color: rgb(230, 255, 219);
+    cursor: pointer;
+}
+
+.newGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.newGroupBtn {
+    margin-left: auto;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(97, 151, 97);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.newGroupBtn:hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+.headerGroupName {
+    cursor: pointer;
+    margin-left: 10px;
+    max-width: 240px;
+    height: 25px;
+    background-color: rgb(230, 255, 219);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerGroupName:hover {
+    background-color: white;
+}
+
+
+.username {
+    margin-left: auto;
+    margin-right: 10px;
+    background: rgb(230, 255, 219);
+    width: max-content;
+    border-radius: 25px;
+}
+
+.username .normal {
+    cursor: pointer;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.username:hover {
+    background-color: white;
+}
+
+.userOptions {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 30px;
+}
+
+.userOptions .return {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(230, 255, 219);
+    padding: 5px;
+    width: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: 1px solid gray;
+    height: 30px;
+}
+
+.userOptions .signOut {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(230, 255, 219);
+    padding: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 30px;
+}
+
+.userOptions .signOut:hover, .return:hover {
+    background-color: white;
+}
+
+.newGroup input {
+    border-radius: 15px;
+    border: 2px solid rgb(97, 151, 97);
+    padding: 5px;
+}
+
+.phoneNumbers {
+    height: 100px;
+    overflow: scroll;
+}
+
+.phoneNumbers p {
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(240, 255, 240);
+    margin-bottom: 6px;
+}
+
+.phoneNumberInput {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.phoneNumberInput button {
+    border: none;
+    background-color: rgb(97, 151, 97);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+}
+
+.phoneNumberInput button:hover {
+    background-color: rgb(240, 255, 240);
+    color: rgb(51, 51, 51);
+}
+
+.createGroupBtn {
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(97, 151, 97);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 100vh;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+}
+
+.createGroupBtn:hover {
+    background-color: rgb(240, 255, 240);
+    color: rgb(51, 51, 51);
+}
